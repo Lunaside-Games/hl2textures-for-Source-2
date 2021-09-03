@@ -6,3 +6,4 @@ Work on transparency when you get to a transparent texture, If a texture doesn't
 
 Save everything as vmat, vtex, vmat_c, vtex_c
 
+The .original folder will be filled after I finish converting
