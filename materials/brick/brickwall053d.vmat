@@ -7,7 +7,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "hl2textures-for-Source-2/materials/brick/brickwall053d.png"
+	TextureColor "/materials/brick/brickwall053d.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -23,7 +23,7 @@ Layer0
 	g_flMetalness "0.000"
 
 	//---- Normal ----
-	TextureNormal "hl2textures-for-source-2/materials/_normal.png"
+	TextureNormal "/materials/_normal.png"
 
 	//---- Roughness ----
 	TextureRoughness "materials/default/default_rough.tga"
