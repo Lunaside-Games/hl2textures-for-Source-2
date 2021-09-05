@@ -2,17 +2,12 @@
 
 Layer0
 {
-	shader "complex.vfx"
-
-	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	shader "vr_simple.vfx"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/brick/brickwall055d.png"
+	TextureColor "materials/concrete/concretewall026a.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -28,7 +23,7 @@ Layer0
 	g_flMetalness "0.000"
 
 	//---- Normal ----
-	TextureNormal "/materials/_normal.png"
+	TextureNormal "materials/_normal.png"
 
 	//---- Roughness ----
 	TextureRoughness "materials/default/default_rough.tga"
