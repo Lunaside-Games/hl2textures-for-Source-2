@@ -7,6 +7,9 @@ Layer0
 	//---- Blend Mode ----
 	F_BLEND_MODE 1 // Translucent
 
+	//---- Lit ----
+	F_LIT 1
+
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
@@ -21,11 +24,15 @@ Layer0
 	//---- Fog ----
 	g_bFogEnabled "1"
 
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
 	//---- Metalness ----
-	g_flMetalness "0.000"
+	g_flMetalness "0.390"
 
 	//---- Normal ----
-	TextureNormal "materials/decals/decalmetalgrate022a_normal.png"
+	TextureNormal "materials/_normal.png"
 
 	//---- Roughness ----
 	TextureRoughness "materials/default/default_rough.tga"
